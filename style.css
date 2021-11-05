@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   height:100%;
+   background-color: #DFC3B1;
+   position: relative;
+
+}
+
+footer {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
