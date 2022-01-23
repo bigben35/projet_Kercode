@@ -602,9 +602,9 @@ a:hover.two-lines::after {
   transform: scale(1.1);
 }
 
-/* .active{
+.active{
   background-color: var(--orange);
-} */
+}
 
 /* -------------------MAP CAVE------------------------ */
 .bloc-img {

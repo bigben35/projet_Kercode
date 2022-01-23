@@ -1,8 +1,8 @@
-let adresse = document.getElementById('address');
-console.log(adresse.value);
+// let adresse = document.getElementById('address');
+// console.log(adresse.value);
 
-fetch ("https://api-adresse.data.gouv.fr/search/?q="+adresse.value+"&limit=6&autocomplete=1")
-.then(response => console.log(response))
+// fetch ("https://api-adresse.data.gouv.fr/search/?q="+adresse.value+"&limit=6&autocomplete=1")
+// .then(response => console.log(response))
 // .then(data => {
 //     let adresses = data.features;
 //     console.log(data);
@@ -16,4 +16,13 @@ fetch ("https://api-adresse.data.gouv.fr/search/?q="+adresse.value+"&limit=6&aut
 // })
 
 
-   
+
+
+button = document.querySelector('.send-msg');
+console.log(button);
+checkbox = document.getElementById('autorisation');
+
+checkbox.addEventListener('click', () => {
+    button.classList.toggle('active');
+})
+
