@@ -1,6 +1,5 @@
 <?php
-
-include "commun/header.php";
+    include "commun/header.php";
 ?>
 
     <main id="contenu">
@@ -125,7 +124,7 @@ include "commun/header.php";
         </div>
     </aside>
    
+
     <?php
-    
-    include "commun/footer.php";
+        include "commun/footer.php";
     ?>
