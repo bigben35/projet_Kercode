@@ -60,6 +60,7 @@
             <p> Ty Joss 2021 - <a href="#">Mentions légales</a></p>
         </div>
     </footer>
+    <script src="script.js"></script>
 
 
 </body>
