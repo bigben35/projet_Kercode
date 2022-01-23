@@ -19,8 +19,9 @@
 
 
 button = document.querySelector('.send-msg');
-console.log(button);
+// console.log(button);
 checkbox = document.getElementById('autorisation');
+console.log(checkbox);
 
 checkbox.addEventListener('click', () => {
     button.classList.toggle('active');
