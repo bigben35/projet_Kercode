@@ -31,7 +31,7 @@
                 </div>
 
 
-                <button class="send-msg active">Envoyer</button>
+                <button class="send-msg">Envoyer</button>
                 <p class="asterix">* Champs obligatoires</p>
 
 
