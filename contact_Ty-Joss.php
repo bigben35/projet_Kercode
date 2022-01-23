@@ -61,19 +61,19 @@
     <main id="contenu">
         <section id="container-form">
             <h1>Nous Contacter</h1>
-            <form class="bloc-form">
+            <form class="bloc-form" method="post" action="#lien supabase?">
                 <div class="separation"></div>
                 <div class="form-line">
-                    <label class="label" for="name">Nom complet</label>
-                    <input class="form-input" type="text" id="name" placeholder="exemple: Paul Dupond">
+                    <label class="label" for="name">Nom complet *</label>
+                    <input class="form-input" type="text" id="name" placeholder="exemple: Paul Dupond" required>
                 </div>
                 <div class="form-line">
-                    <label class="label" for="email">Adresse mail</label>
-                    <input class="form-input" type="email" id="email" placeholder="Email">
+                    <label class="label" for="email">Adresse mail *</label>
+                    <input class="form-input" type="email" id="email" placeholder="Email" required>
                 </div>
                 <div class="form-line">
-                    <label class="label" for="address">Adresse</label>
-                    <input class="form-input" type="text" id="address" placeholder="Votre Adresse">
+                    <label class="label" for="address">Adresse *</label>
+                    <input class="form-input" type="text" id="address" placeholder="Votre Adresse" required>
                 </div>
 
                 <div class="form-line">
@@ -81,9 +81,14 @@
                     <textarea id="form-message" name="message" class="form-input" cols="50" rows="8"
                         placeholder="Votre message"></textarea>
                 </div>
+                <div class="form-line">
+                    <input type="checkbox" id="autorisation" required>
+                    <label for="autorisation">&nbsp; En soumettant ce formulaire, j'autorise ce site à conserver mes données personnelles. Aucune exploitation commerciale ne sera faite des données conservées.</label>
+                </div>
 
 
                 <button class="send-msg active">Envoyer</button>
+                <p class="asterix">* Champs obligatoires</p>
 
 
             </form>
