@@ -226,4 +226,6 @@
         </div>
     </aside>
 
-   
+   <?php
+        include "commun/footer.php";
+   ?>
