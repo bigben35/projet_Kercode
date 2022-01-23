@@ -33,7 +33,7 @@
                 <a href="#"><i class="fas fa-shopping-basket"></i></a>
             </div>
             <div id="logo-title">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="./images/logo_Ty-Joss.png" alt="logo cave Ty Joss">
                 </a>
             </div>
