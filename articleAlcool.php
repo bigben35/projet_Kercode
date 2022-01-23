@@ -3,7 +3,7 @@ require_once "Class/Alcool.php";
 require_once "Class/Vin.php";
 require_once "Class/Spi.php";
 require_once "Class/Biere.php";
-
+ 
     include "commun/header.php";
 ?>
 
