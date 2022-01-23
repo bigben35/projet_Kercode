@@ -53,89 +53,84 @@
             </nav>
         </div>
 
-        <div id="image-fond-boutique"><a href="boutique_Ty-Joss.html">Boutique</a></div>
+        <div id="image-fond-boutique"><a href="contact_Ty-Joss.html">Contact</a></div>
 
 
     </header>
 
     <main id="contenu">
-        <h1>Notre Sélection</h1>
-        <section id="wine-shop" class="container">
-            <div class="orange-line-title">
-                <h2>Nos Vins</h2>
-                <span class="orange-line"></span>
+        <section id="container-form">
+            <h1>Nous Contacter</h1>
+            <form class="bloc-form">
+                <div class="separation"></div>
+                <div class="form-line">
+                    <label class="label" for="name">Nom complet</label>
+                    <input class="form-input" type="text" id="name" placeholder="exemple: Paul Dupond">
+                </div>
+                <div class="form-line">
+                    <label class="label" for="email">Adresse mail</label>
+                    <input class="form-input" type="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-line">
+                    <label class="label" for="address">Adresse</label>
+                    <input class="form-input" type="text" id="address" placeholder="Votre Adresse">
+                </div>
+
+                <div class="form-line">
+                    <label class="label" for="form-message">Votre Message</label>
+                    <textarea id="form-message" name="message" class="form-input" cols="50" rows="8"
+                        placeholder="Votre message"></textarea>
+                </div>
+
+
+                <button class="send-msg active">Envoyer</button>
+
+
+            </form>
+            <div class="bloc-img">
+                <a
+                    href="https://www.google.fr/maps/place/95+Av.+Pasteur,+49100+Angers/@47.4740717,-0.5398766,17z/data=!3m1!4b1!4m5!3m4!1s0x480878f131c9b2d7:0x7da8f9b767211b7d!8m2!3d47.4740717!4d-0.5376879"><img
+                        src="images/map-ConvertImage.jpg" alt="carte de la cave"></a>
             </div>
-            <article class="bloc-alcool">
-                <div class="choix-alcool">
-                    <a href="page_cabernet-franc.html">
-                        <img src="images/cabernet-franc-stephane-orieux.webp" alt="vin rouge stephane orieux">
-                    </a>
-                    <h3>Cabernet Franc - Rouge Loire <br>
-                        5,50 €</h3>
 
-                    <a class="btn-voirPlus" href="page_cabernet-franc.html">Voir plus</a>
-                </div>
-
-
-                <div class="choix-alcool">
-                    <a href="page_les-houx.html">
-                        <img src="images/Les-Houx-Jo-Landron.webp" alt="muscadet de chez Jo Landron">
-                    </a>
-                    <h3>Les Houx - Muscadet Loire <br>
-                        11 €</h3>
-
-                    <a class="btn-voirPlus" href="page_les-houx.html">Voir plus</a>
-                </div>
-            </article>
-            <div class="orange-line-title">
-                <h2>Nos Spiritueux</h2>
-                <span class="orange-line"></span>
-            </div>
-            <article class="bloc-alcool">
-                <div class="choix-alcool">
-                    <a href="page_talisker-18.html">
-                        <img src="images/talisker18.webp" alt="whisky 18 ans écosse rare">
-                    </a>
-                    <h3>Talisker 18 ans - Whisky Ecosse <br>
-                        90 €</h3>
-
-                    <a class="btn-voirPlus" href="page_talisker-18.html">Voir plus</a>
-                </div>
-
-                <div class="choix-alcool">
-                    <a href="page_neisson.html">
-                        <img src="images/neisson.webp" alt="rhum martinique">
-                    </a>
-                    <h3>Rhum - Martinique <br>
-                        49 €</h3>
-                    <a class="btn-voirPlus" href="page_neisson.html">Voir plus</a>
-                </div>
-            </article>
-            <div class="orange-line-title">
-                <h2>Nos Bières</h2>
-                <span class="orange-line"></span>
-            </div>
-            <article class="bloc-alcool">
-                <div class="choix-alcool">
-                    <a href="page_la-flemme.html">
-                        <img src="images/la-flemme-75cl.webp" alt="bière blonde de Vannes">
-                    </a>
-                    <h3>La Dilettante 75cl - Bière Blonde Vannes <br>
-                        6,50 €</h3>
-                    <a class="btn-voirPlus" href="page_la-flemme.html">Voir plus</a>
-                </div>
-
-                <div class="choix-alcool">
-                    <a href="page_cantillon.html">
-                        <img src="images/cantillon.webp" alt="bière fermentation spontanée de belgique">
-                    </a>
-                    <h3>Cantillon 75cl - Bière Fermentation spontanée Belgique <br>
-                        15,50 €</h3>
-                    <a class="btn-voirPlus" href="page_cantillon.html">Voir plus</a>
-                </div>
-            </article>
         </section>
-
+        <section class="contact">
+            <ul>
+                <li>
+                    <div class="bloc-contact">
+                        <span class="circle"><i class=" fas fa-map-marker-alt "></i></span>
+                        <div class="title-contact">
+                            <p>Adresse : 95, Avenue Pasteur - 49100 ANGERS</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bloc-contact">
+                        <span class="circle"><i class="fa fa-phone"></i></span>
+                        <div class="title-contact">
+                            <p>Téléphone : <a href="tel:+33241437070">02 41 43 70 70</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bloc-contact">
+                        <span class="circle"><i class="fa fa-paper-plane"></i></span>
+                        <div class="title-contact">
+                            <p>E-mail: <a href="mailto:josselincrenn@gmail.com">josselincrenn@gmail.com</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bloc-contact">
+                        <span class="circle"><i class="fa fa-globe"></i></span>
+                        <div class="title-contact">
+                            <p>Site Web: <a href="index.html">https://bigben35.github.io/projet_Kercode/</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <aside id="infos-conseils" class="container">
@@ -179,7 +174,6 @@
             <button type="submit">Envoyer</button>
         </div>
     </aside>
-
     <footer id="pied">
         <a href="#" class="btn-arrow">
             <i class="fas fa-arrow-up"></i>
@@ -193,7 +187,7 @@
                 <ul>
 
                     <li><a class="two-lines" href="index.html">Accueil</a></li>
-                    <li><a class="two-lines" href="boutique_Ty-Joss.html">La Boutique</a></li>
+                    <li><a class="two-lines" href="boutique_Ty-Joss.php">La Boutique</a></li>
                     <li><a class="two-lines" href="#">Ateliers dégustations</a></li>
                     <li><a class="two-lines" href="#">Idées Cadeaux</a></li>
                     <li><a class="two-lines" href="contact_Ty-Joss.html">Contact</a></li>
@@ -242,7 +236,7 @@
             <p> Ty Joss 2021 - <a href="#">Mentions légales</a></p>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

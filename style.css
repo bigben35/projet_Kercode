@@ -589,7 +589,7 @@ a:hover.two-lines::after {
 /* ------------------BOUTON-------------------- */
 .send-msg {
   cursor: pointer;
-  background-color: var(--orange);
+  background-color: grey;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -601,6 +601,10 @@ a:hover.two-lines::after {
 .send-msg:hover {
   transform: scale(1.1);
 }
+
+/* .active{
+  background-color: var(--orange);
+} */
 
 /* -------------------MAP CAVE------------------------ */
 .bloc-img {
