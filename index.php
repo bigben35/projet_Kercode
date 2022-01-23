@@ -30,7 +30,7 @@
                     du savoir-faire viticole Français.<br><br> <strong>Ty Joss</strong> vous propose également des
                     coffrets cadeaux sur mesure, des<strong> ateliers d'initiation à la dégustation</strong> ainsi que
                     des <strong>cartes cadeaux</strong> du montant que vous souhaitez. N'hésitez
-                    pas à nous contacter <a class="lien-variete" href="contact_Ty-Joss.html">ici</a> pour en savoir
+                    pas à nous contacter <a class="lien-variete" href="contact_Ty-Joss.php">ici</a> pour en savoir
                     plus.
                     <br> À très vite!
                 </p>
@@ -191,7 +191,7 @@
                 <h4>Nos Conseils</h4>
                 <span class="orange-line"></span>
             </div>
-            <p>Au <strong>02 41 43 70 70</strong> ou par email <a href="contact_Ty-Joss.html">en cliquant ici</a></p>
+            <p>Au <strong>02 41 43 70 70</strong> ou par email <a href="contact_Ty-Joss.php">en cliquant ici</a></p>
         </div>
         <div class="bloc-conseil">
             <img src="images/world.webp" alt="sauver les vignerons">
