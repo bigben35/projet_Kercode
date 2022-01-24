@@ -54,17 +54,25 @@ foreach($vins as $vin){
             </div>
 
             <article class="bloc-alcool">
-                <div class="choix-alcool">
-                    <a href="page_talisker-18.html">
-                        <img src="images/talisker18.webp" alt="whisky 18 ans écosse rare">
-                    </a>
-                    <h3>Talisker 18 ans - Whisky Ecosse <br>
-                        90 €</h3>
 
-                    <a class="btn-voirPlus" href="page_talisker-18.html">Voir plus</a>
+            <?php
+                foreach($spis as $spi){
+            ?>
+                <div class="choix-alcool">
+                    <a href=<?= $spi->getLienPageProduit() ?>>
+                        <img src=<?= $spi->getImage() ?> alt=<?= $spi->getImage() ?>>
+                    </a>
+                    <h3><?= $spi->getNom() ?> <br>
+                        <?= $spi->getPrix() ?></h3>
+
+                    <a class="btn-voirPlus" href=<?= $spi->getLienPageProduit() ?>>Voir plus</a>
                 </div>
 
-                <div class="choix-alcool">
+                <?php
+                }
+                ?>
+
+                <!-- <div class="choix-alcool">
                     <a href="page_neisson.html">
                         <img src="images/neisson.webp" alt="rhum martinique">
                     </a>
@@ -72,7 +80,7 @@ foreach($vins as $vin){
                         49 €</h3>
                     <a class="btn-voirPlus" href="page_neisson.html">Voir plus</a>
                 </div>
-            </article>
+            </article> -->
             <div class="orange-line-title">
                 <h2>Nos Bières</h2>
                 <span class="orange-line"></span>
