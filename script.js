@@ -17,9 +17,7 @@ function displayAddress() {
             listeAdresse.innnerHTML = "";
             adresses.forEach(element => {
                 let li = document.createElement('li');
-                li.style.backgroundColor = "grey";
-                li.style.cursor = "pointer";
-                li.style.margin = "5px";
+                li.classList.add('form-list')
                 listeAdresse.appendChild(li);
                 li.innerText = element.properties.label;
 

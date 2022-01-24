@@ -4,9 +4,9 @@ require_once "Class/Alcool.php";
 
 class Biere extends Alcool{
 
-    public function __construct()
+    public function __construct(string $image, string $nom, float $prix, string $lienPageProduit)
     {
-        parent::__construct($this->image, "Biere",$this->nom,$this->prix);
+        parent::__construct($image, "Biere",$nom,$prix, $lienPageProduit);
     }
 
     public function afficherTitreCategorie(){

@@ -587,6 +587,14 @@ a:hover.two-lines::after {
   width: 100%;
 }
 
+.form-list{
+  background-color: grey;
+  cursor: pointer;
+  margin: 5px;
+}
+.form-list:hover{
+  background-color: var(--gris-clair);
+}
 /* ------------------BOUTON-------------------- */
 .send-msg {
   cursor: pointer;

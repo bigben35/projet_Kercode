@@ -5,6 +5,7 @@ abstract class Alcool{
     private string $categorie;
     private string $nom;
     private float $prix;
+    private string $lienPageProduit;
 
     const VIN1IMG = "images/cabernet-franc-stephane-orieux.webp";
     const VIN2IMG = "images/Les-Houx-Jo-Landron.webp";
@@ -14,21 +15,30 @@ abstract class Alcool{
     const SPI2IMG = "images/neisson.webp";
 
 
-    public function __construct(string $image, string $categorie, string $nom, float $prix)
+    public function __construct(string $image, string $categorie, string $nom, float $prix, string $lienPageProduit)
 
     {
         $this->image = $image;
         $this->categorie = $categorie;
         $this->nom = $nom;
         $this->prix = $prix;    
+        $this->lienPageProduit = $lienPageProduit;    
     }
 
-    public function __toString()
-    {
-        $affichage = $this->image."<br>";
-        $affichage .= "Catégorie : ".$this->categorie."<br>";
-        $affichage .= "Nom : ".$this->nom."<br>";
-        $affichage .= "Prix (en €) : ".$this->prix."<br>";
-        return $affichage;
+    public function getImage(){
+        return $this->image;
+    }
+    
+    public function getCategorie(){
+        return $this->categorie;
+    }
+    public function getNom(){
+        return $this->nom;
+    }
+    public function getPrix(){
+        return $this->prix;
+    }
+    public function getLienPageProduit(){
+        return $this->lienPageProduit;
     }
 }

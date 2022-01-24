@@ -4,12 +4,12 @@ require_once "Class/Alcool.php";
 
 class Vin extends Alcool{
 
-    public function __construct()
+    public function __construct(string $image, string $nom, float $prix, string $lienPageProduit)
     {
-        parent::__construct($this->image, "Vin",$this->nom,$this->prix);
+        parent::__construct($image, "Vin",$nom,$prix,$lienPageProduit);
     }
 
-    public function afficherTitreCategorie(){
+    public function afficherPageProduit(){
         echo "<h3>Vins :</h3>"."<br>";
     }
 }

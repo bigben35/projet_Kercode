@@ -98,7 +98,7 @@
                 </div>
             </article>
         </section>
-        <section id="nouveautes">
+        <section id="nouveautes" class= "container">
             <div class="orange-line-title container">
                 <h2>Les Nouveautés</h2>
                 <span class="orange-line"></span>

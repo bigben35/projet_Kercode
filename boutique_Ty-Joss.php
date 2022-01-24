@@ -1,5 +1,5 @@
 <?php
-require_once "Class/Alcool.php";
+require_once "articleAlcool.php";
 include "commun/header.php";
 
 ?>
@@ -13,19 +13,30 @@ include "commun/header.php";
                 <h2>Nos Vins</h2>
                 <span class="orange-line"></span>
             </div>
+            
             <article class="bloc-alcool">
-                <div class="choix-alcool">
-                    <a href="page_cabernet-franc.html">
-                        <img src="images/cabernet-franc-stephane-orieux.webp" alt="vin rouge stephane orieux">
-                    </a>
-                    <h3>Cabernet Franc - Rouge Loire <br>
-                        5,50 €</h3>
+<?php
+foreach($vins as $vin){
 
-                    <a class="btn-voirPlus" href="page_cabernet-franc.html">Voir plus</a>
+?>
+
+                <div class="choix-alcool">
+                    
+                    <a href=<?= $vin->getLienPageProduit() ?>>
+                        <img src=<?= $vin->getImage() ?> alt=<?= $vin->getImage() ?>>
+                    </a>
+                    <h3><?=$vin->getNom() ?> <br>
+                        <?=$vin->getPrix() ?> €</h3>
+
+                    <a class="btn-voirPlus" href=<?= $vin->getLienPageProduit() ?>>Voir plus</a>
                 </div>
 
 
-                <div class="choix-alcool">
+            <?php
+}
+
+?>
+                <!-- <div class="choix-alcool">
                     <a href="page_les-houx.html">
                         <img src="images/Les-Houx-Jo-Landron.webp" alt="muscadet de chez Jo Landron">
                     </a>
@@ -33,12 +44,15 @@ include "commun/header.php";
                         11 €</h3>
 
                     <a class="btn-voirPlus" href="page_les-houx.html">Voir plus</a>
-                </div>
+             </div> -->
             </article>
+
+
             <div class="orange-line-title">
                 <h2>Nos Spiritueux</h2>
                 <span class="orange-line"></span>
             </div>
+
             <article class="bloc-alcool">
                 <div class="choix-alcool">
                     <a href="page_talisker-18.html">
