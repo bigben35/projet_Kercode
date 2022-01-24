@@ -193,8 +193,9 @@ a:hover.two-lines::after {
   text-align: center;
 }
 .menu_item:hover {
-  filter: brightness(0.2);
+  /* filter: brightness(0.2); */
   cursor: pointer;
+  background-color: var(--orange);
 }
 
 /* -----------------------------main--------------------------------  */
@@ -611,7 +612,10 @@ a:hover.two-lines::after {
   transform: scale(1.1);
 }
 
-.active{
+.noHover{
+  pointer-events: none;
+}
+.activeBtn{
   background-color: var(--orange);
 }
 
