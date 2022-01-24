@@ -14,14 +14,14 @@ require_once "Class/Biere.php";
 
 <?php
 
-$vin1 = new Vin("VIN1IMG",$this->categorie,"Vin 1",5.50);
-$vin2 = new Vin("VIN2IMG",$this->categorie,"Vin 2",11);
+$vin1 = new Vin("VIN1IMG",$categorie,"Vin 1",5.50);
+$vin2 = new Vin("VIN2IMG",$categorie,"Vin 2",11);
 
-$spi1 = new Spi("SPI1IMG",$this->categorie,"Spi 1",90);
-$spi2 = new Spi("SPI2IMG",$this->categorie,"Spi 2",49);
+$spi1 = new Spi("SPI1IMG",$categorie,"Spi 1",90);
+$spi2 = new Spi("SPI2IMG",$categorie,"Spi 2",49);
 
-$biere1 = new Biere("BIERE1IMG",$this->categorie,"Biere 1",6.50);
-$biere2 = new Biere("BIERE2IMG",$this->categorie,"Biere 2",15.50);
+$biere1 = new Biere("BIERE1IMG",$categorie,"Biere 1",6.50);
+$biere2 = new Biere("BIERE2IMG",$categorie,"Biere 2",15.50);
 
 $alcools = [$vin1, $vin2, $spi1, $spi2, $biere1, $biere2];
 

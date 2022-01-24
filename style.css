@@ -586,6 +586,7 @@ a:hover.two-lines::after {
   padding-left: 5px;
   width: 100%;
 }
+
 /* ------------------BOUTON-------------------- */
 .send-msg {
   cursor: pointer;

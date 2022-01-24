@@ -18,6 +18,7 @@
                 <div class="form-line">
                     <label class="label" for="address">Adresse *</label>
                     <input class="form-input" type="text" id="address" placeholder="Votre Adresse" required>
+                    <ul id="listAddress"></ul>
                 </div>
 
                 <div class="form-line">
