@@ -6,7 +6,7 @@ class Spi extends Alcool{
 
     public function __construct(string $image, string $nom, float $prix, string $lienPageProduit)
     {
-        parent::__construct($image, "Spiritueux",$nom,$prix, $lienPageProduit);
+        parent::__construct($image, "Spiritueux", $nom, $prix, $lienPageProduit);
     }
 
     public function afficherTitreCategorie(){

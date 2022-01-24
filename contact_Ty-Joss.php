@@ -33,6 +33,7 @@
 
 
                 <button class="send-msg">Envoyer</button>
+                <div id="notification">Votre message a bien été envoyé !</div>
                 <p class="asterix">* Champs obligatoires</p>
 
 

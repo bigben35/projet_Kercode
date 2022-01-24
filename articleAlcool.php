@@ -19,6 +19,10 @@ $spi2 = new Spi("images/neisson.webp", "Rhum - Martinique", 49, "page_neisson.ph
 $spis = [$spi1, $spi2];
 // foreach($vins as $vin){
 //     echo $vin->__toString();
+
+$biere1 = new Biere("images/la-flemme-75cl.webp", "La Dilettante 75cl - Bière Blonde Vannes", 6.50, "page_la-flemme.php");
+$biere2 = new Biere("images/cantillon.webp", "Cantillon 75cl - Bière Fermentation spontanée Belgique", 15.50, "page_cantillon.php");
+$bieres = [$biere1, $biere2];
 // }
 // $vin2 = new Vin("VIN2IMG","Vin 2",11);
 

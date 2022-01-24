@@ -26,7 +26,7 @@ foreach($vins as $vin){
                         <img src=<?= $vin->getImage() ?> alt=<?= $vin->getImage() ?>>
                     </a>
                     <h3><?=$vin->getNom() ?> <br>
-                        <?=$vin->getPrix() ?> €</h3>
+                        <?=$vin->getPrix() ?>€</h3>
 
                     <a class="btn-voirPlus" href=<?= $vin->getLienPageProduit() ?>>Voir plus</a>
                 </div>
@@ -63,7 +63,7 @@ foreach($vins as $vin){
                         <img src=<?= $spi->getImage() ?> alt=<?= $spi->getImage() ?>>
                     </a>
                     <h3><?= $spi->getNom() ?> <br>
-                        <?= $spi->getPrix() ?></h3>
+                        <?= $spi->getPrix() ?>€</h3>
 
                     <a class="btn-voirPlus" href=<?= $spi->getLienPageProduit() ?>>Voir plus</a>
                 </div>
@@ -86,23 +86,35 @@ foreach($vins as $vin){
                 <span class="orange-line"></span>
             </div>
             <article class="bloc-alcool">
-                <div class="choix-alcool">
-                    <a href="page_la-flemme.html">
-                        <img src="images/la-flemme-75cl.webp" alt="bière blonde de Vannes">
-                    </a>
-                    <h3>La Dilettante 75cl - Bière Blonde Vannes <br>
-                        6,50 €</h3>
-                    <a class="btn-voirPlus" href="page_la-flemme.html">Voir plus</a>
-                </div>
+
+            <?php
+                foreach($bieres as $biere){
+            ?>
 
                 <div class="choix-alcool">
+                    <a href=<?= $biere->getLienPageProduit() ?>>
+                        <img src=<?= $biere->getImage() ?> alt=<?= $biere->getImage() ?>>
+                    </a>
+                    <h3><?= $biere->getNom() ?> <br>
+                        <?= $biere->getPrix() ?>€</h3>
+                    <a class="btn-voirPlus" href=<?= $biere->getLienPageProduit() ?>>Voir plus</a>
+                </div>
+
+                <?php
+                }
+                ?>
+
+                <!-- <div class="choix-alcool">
                     <a href="page_cantillon.html">
                         <img src="images/cantillon.webp" alt="bière fermentation spontanée de belgique">
                     </a>
                     <h3>Cantillon 75cl - Bière Fermentation spontanée Belgique <br>
                         15,50 €</h3>
                     <a class="btn-voirPlus" href="page_cantillon.html">Voir plus</a>
-                </div>
+                </div> -->
+
+                
+
             </article>
         </section>
 
