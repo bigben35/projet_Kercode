@@ -4,45 +4,45 @@
 // FORMULAIRE DE CONTACT / RECUPERER ADRESSE AVEC API.GOUV
 
 
-// let adresse = document.getElementById('address');
-// let listeAdresse = document.getElementById('listAddress');
-// console.log(adresse.value);
+let adresse = document.getElementById('address');
+let listeAdresse = document.getElementById('listAddress');
+console.log(adresse.value);
 
-// adresse.addEventListener('input', displayAddress)
+adresse.addEventListener('input', displayAddress)
 
 
-// function displayAddress() {
-//     listeAdresse.innnerHTML = "";
-//     fetch("https://api-adresse.data.gouv.fr/search/?q=" + adresse.value + "&limit=6&autocomplete=1")
-//     .then(response => response.json())
-//     .then(data => {
-//         listeAdresse.innerHTML = "";
-//         let adresses = data.features;
-//         // console.log(adresses);
+function displayAddress() {
+    listeAdresse.innnerHTML = "";
+    fetch("https://api-adresse.data.gouv.fr/search/?q=" + adresse.value + "&limit=6&autocomplete=1")
+    .then(response => response.json())
+    .then(data => {
+        listeAdresse.innerHTML = "";
+        let adresses = data.features;
+        // console.log(adresses);
 
-//         if (adresse.value) {
+        if (adresse.value) {
             
-//             adresses.forEach(element => {
+            adresses.forEach(element => {
                 
-//                 let li = document.createElement('li');
-//                 li.classList.add('form-list')
-//                 listeAdresse.appendChild(li);
-//                 li.innerText = element.properties.label;
+                let li = document.createElement('li');
+                li.classList.add('form-list')
+                listeAdresse.appendChild(li);
+                li.innerText = element.properties.label;
 
-//                 li.addEventListener('click', () => {
-//                     adresse.value = element.properties.label;
-//                     listeAdresse.innerHTML = "";
-//                 })
-//                 listeAdresse.appendChild(li);   
-//              } );
+                li.addEventListener('click', () => {
+                    adresse.value = element.properties.label;
+                    listeAdresse.innerHTML = "";
+                })
+                listeAdresse.appendChild(li);   
+             } );
             
-//         }
-//         else{
-//             listeAdresse.innerHTML = "";
-//         }
+        }
+        else{
+            listeAdresse.innerHTML = "";
+        }
     
-//     })
-// }
+    })
+}
 
 
 
@@ -64,10 +64,10 @@ let checkbox = document.getElementById('autorisation');
 // }) 
 
 
-// checkbox.addEventListener('click', () => {
-//     button.classList.toggle('activeBtn');
+checkbox.addEventListener('click', () => {
+    button.classList.toggle('activeBtn');
     
-// })
+})
 // button.classList.remove('send-msg:hover');
 
 // let toast = document.querySelector('#notification');
@@ -78,11 +78,11 @@ let checkbox = document.getElementById('autorisation');
 //     }, 4000);
 //   });
 
-if(checkbox){
-    button.addEventListener('click', () => {
-    alert('Votre message a bien été envoyé !');
-})
-}
+// if(checkbox){
+//     button.addEventListener('click', () => {
+//     alert('Votre message a bien été envoyé !');
+// })
+// }
  
 
 

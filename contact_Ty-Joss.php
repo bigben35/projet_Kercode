@@ -5,26 +5,26 @@
     <main id="contenu">
         <section id="container-form">
             <h1>Nous Contacter</h1>
-            <form class="bloc-form" method="post" action="#lien supabase?">
+            <form class="bloc-form" method="POST" role="form" name="Formulaire-de-contact">
                 <div class="separation"></div>
                 <div class="form-line">
                     <label class="label" for="name">Nom complet *</label>
-                    <input class="form-input" type="text" id="name" placeholder="exemple: Paul Dupond" required>
+                    <input class="form-input" type="text" id="name" name="name" placeholder="exemple: Paul Dupond" required>
                 </div>
                 <div class="form-line">
                     <label class="label" for="email">Adresse mail *</label>
-                    <input class="form-input" type="email" id="email" placeholder="Email" required>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="form-line">
                     <label class="label" for="address">Adresse *</label>
-                    <input class="form-input" type="text" id="address" placeholder="Votre Adresse" required>
+                    <input class="form-input" type="text" id="address" name="address" placeholder="Votre Adresse" required>
                     <ul id="listAddress"></ul>
                 </div>
 
                 <div class="form-line">
                     <label class="label" for="form-message">Votre Message *</label>
                     <textarea id="form-message" name="message" class="form-input" cols="50" rows="8"
-                        placeholder="Votre message" required></textarea>
+                        placeholder="Votre message"></textarea>
                 </div>
                 <div class="form-line">
                     <input type="checkbox" id="autorisation" required>
@@ -32,7 +32,7 @@
                 </div>
 
 
-                <button class="send-msg">Envoyer</button>
+                <button class="send-msg" type="submit">Envoyer</button>
                 <div id="notification">Votre message a bien été envoyé !</div>
                 <p class="asterix">* Champs obligatoires</p>
 
@@ -126,7 +126,8 @@
         </div>
     </aside>
    
-
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
+    <script src="supabase.js"></script>
     <?php
         include "commun/footer.php";
     ?>
