@@ -24,7 +24,7 @@
                 <div class="form-line">
                     <label class="label" for="form-message">Votre Message *</label>
                     <textarea id="form-message" name="message" class="form-input" cols="50" rows="8"
-                        placeholder="Votre message"></textarea>
+                        placeholder="Votre message" required></textarea>
                 </div>
                 <div class="form-line">
                     <input type="checkbox" id="autorisation" required>
