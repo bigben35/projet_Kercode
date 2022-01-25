@@ -44,7 +44,7 @@
                 </label>
 
                 <ul class="menu_box">
-                    <li class="menu_item active"><a class="two-lines" href="index.php">Accueil</a></li>
+                    <li class="menu_item"><a class="two-lines active" href="index.php">Accueil</a></li>
                     <li class="menu_item"><a class="two-lines" href="boutique_Ty-Joss.php">Boutique</a></li>
                     <li class="menu_item"><a class="two-lines" href="#">Ateliers dégustations</a></li>
                     <li class="menu_item"><a class="two-lines" href="#">Idées Cadeaux</a></li>

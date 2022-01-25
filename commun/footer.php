@@ -1,7 +1,7 @@
 <footer id="pied">
-        <a href="#" class="btn-arrow">
+        <div class="btn-arrow">
             <i class="fas fa-arrow-up"></i>
-        </a>
+        </div>
         <aside id="contenu-bas">
             <div class="logo-footer">
                 <a href="index.php"><img src="images/logo_Ty-Joss.png" alt="logo cave Ty Joss"></a>

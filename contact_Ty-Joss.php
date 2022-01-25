@@ -67,7 +67,7 @@
                     <div class="bloc-contact">
                         <span class="circle"><i class="fa fa-paper-plane"></i></span>
                         <div class="title-contact">
-                            <p>E-mail: <a href="mailto:josselincrenn@gmail.com">josselincrenn@gmail.com</a></p>
+                            <p>E-mail: <a href="mailto:josselincrenn@gmail.com">cliquez ici</a></p>
                         </div>
                     </div>
                 </li>

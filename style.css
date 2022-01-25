@@ -192,10 +192,14 @@ a:hover.two-lines::after {
   margin-bottom: 2px;
   text-align: center;
 }
-.menu_item:hover {
+/* .menu_item:hover {
   /* filter: brightness(0.2); */
-  cursor: pointer;
-  background-color: var(--orange);
+  /* cursor: pointer; */
+  /* background-color: var(--orange); */
+/* }  */
+.two-lines.active{
+background: blue;
+color: #fff;
 }
 
 /* -----------------------------main--------------------------------  */
