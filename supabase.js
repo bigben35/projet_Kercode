@@ -12,13 +12,15 @@ form.addEventListener('submit', async (event) => {
 
     formInputs.forEach(element => {
         const { value, name } = element
-        if(value) {
+        if(value  && name!="") {
             submission[name] = value
         }
         // console.log({error, data});
     })
 
     const {error, data} = await supabase.from('Formulaire-de-contact').insert([submission]);
+    // console.log(submission);
+    // console.log(error);
 
     if(error){
         alert('Il y a une erreur, réessayer');

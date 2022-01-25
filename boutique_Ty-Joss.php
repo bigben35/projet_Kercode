@@ -15,10 +15,11 @@ include "commun/header.php";
             </div>
             
             <article class="bloc-alcool">
-<?php
-foreach($vins as $vin){
+            <?php
+            if(isset($vins)){
+            foreach($vins as $vin){
 
-?>
+            ?>
 
                 <div class="choix-alcool">
                     
@@ -33,9 +34,9 @@ foreach($vins as $vin){
 
 
             <?php
-}
+                } }
 
-?>
+                ?>
                 <!-- <div class="choix-alcool">
                     <a href="page_les-houx.html">
                         <img src="images/Les-Houx-Jo-Landron.webp" alt="muscadet de chez Jo Landron">
@@ -56,6 +57,7 @@ foreach($vins as $vin){
             <article class="bloc-alcool">
 
             <?php
+            if(isset($spis)){
                 foreach($spis as $spi){
             ?>
                 <div class="choix-alcool">
@@ -69,7 +71,7 @@ foreach($vins as $vin){
                 </div>
 
                 <?php
-                }
+                } }
                 ?>
 
                 <!-- <div class="choix-alcool">
@@ -88,6 +90,7 @@ foreach($vins as $vin){
             <article class="bloc-alcool">
 
             <?php
+            if(isset($bieres)) {
                 foreach($bieres as $biere){
             ?>
 
@@ -101,7 +104,7 @@ foreach($vins as $vin){
                 </div>
 
                 <?php
-                }
+                }}
                 ?>
 
                 <!-- <div class="choix-alcool">

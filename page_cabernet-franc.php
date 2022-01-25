@@ -33,7 +33,7 @@
                         </div>
 
                         <button class="bouton-ajout">Ajouter au Panier</button>
-                        <span>Catégories: Vin ~ Rouge ~ Loire</span>
+                        <span>Catégories: <?= $alcools->getCategorie() ?></span>
                     </div>
                 </div>
                 <div class="description-article">

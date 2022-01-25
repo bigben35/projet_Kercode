@@ -23,7 +23,10 @@ $spis = [$spi1, $spi2];
 $biere1 = new Biere("images/la-flemme-75cl.webp", "La Dilettante 75cl - Bière Blonde Vannes", 6.50, "page_la-flemme.php");
 $biere2 = new Biere("images/cantillon.webp", "Cantillon 75cl - Bière Fermentation spontanée Belgique", 15.50, "page_cantillon.php");
 $bieres = [$biere1, $biere2];
-// }
+
+
+// $alcools = [$vins, $spis, $bieres];
+// 
 // $vin2 = new Vin("VIN2IMG","Vin 2",11);
 
 // $spi1 = new Spi("SPI1IMG","Spi 1",90);
