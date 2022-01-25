@@ -4,7 +4,7 @@
     <main id="contenu">
         <section id="main-shop" class="container">
             <div class="chemin">
-                <a href="index.html">Accueil</a> >> <a href="boutique_Ty-Joss.html"> Boutique</a> >> Whisky
+                <a href="index.php">Accueil</a> >> <a href="boutique_Ty-Joss.php"> Boutique</a> >> Whisky
                 >> Talisker 18 ans
             </div>
             <article class="shop">

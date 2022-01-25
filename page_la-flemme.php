@@ -4,7 +4,7 @@
     <main id="contenu">
         <section id="main-shop" class="container">
             <div class="chemin">
-                <a href="index.html">Accueil</a> >> <a href="boutique_Ty-Joss.html"> Boutique</a> >> Bières
+                <a href="index.php">Accueil</a> >> <a href="boutique_Ty-Joss.php"> Boutique</a> >> Bières
                 >> La Flemme-75cl
             </div>
             <article class="shop">

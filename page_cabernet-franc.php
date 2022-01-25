@@ -4,7 +4,7 @@
     <main id="contenu">
         <section id="main-shop" class="container">
             <div class="chemin">
-                <a href="index.html">Accueil</a> >> <a href="boutique_Ty-Joss.html"> Boutique</a> >> Les Vins
+                <a href="index.php">Accueil</a> >> <a href="boutique_Ty-Joss.php"> Boutique</a> >> Les Vins
                 >> Cabernet-Franc
             </div>
             <article class="shop">

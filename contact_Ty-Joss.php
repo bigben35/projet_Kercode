@@ -75,7 +75,7 @@
                     <div class="bloc-contact">
                         <span class="circle"><i class="fa fa-globe"></i></span>
                         <div class="title-contact">
-                            <p>Site Web: <a href="index.html">https://bigben35.github.io/projet_Kercode/</a>
+                            <p>Site Web: <a href="index.php">https://bigben35.github.io/projet_Kercode/</a>
                             </p>
                         </div>
                     </div>
