@@ -197,8 +197,8 @@ a:hover.two-lines::after {
   /* cursor: pointer; */
   /* background-color: var(--orange); */
 /* }  */
-.two-lines.active{
-background: blue;
+.active, .two-lines:hover{
+background: rgb(157, 157, 163);
 color: #fff;
 }
 

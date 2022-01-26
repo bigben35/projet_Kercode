@@ -87,6 +87,7 @@
    
     <script src="https://unpkg.com/@supabase/supabase-js"></script>
     <script src="supabase.js"></script>
+    <script src="formulaireContact.js"></script>
     <?php
         include "commun/footer.php";
     ?>
